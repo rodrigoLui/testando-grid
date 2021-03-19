@@ -47,12 +47,13 @@ main{
     display: grid;
 
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 30vh 40vh 30vh 19vh;
+    grid-template-rows: 30vh 40vh 30vh 19vh 20vh;
 
     grid-template-areas:"a    b"
                         "a    b"   
                         "d    d"
-                        "c    c";
+                        "c    c"
+                        "s    s";
 }
 article{
     grid-area: a;
@@ -66,7 +67,9 @@ div#container02{
 div#container03{
     grid-area: d;
 }
-
+div#sobre{
+    grid-area: s;
+}
 
 footer{
 

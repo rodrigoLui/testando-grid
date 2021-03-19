@@ -56,19 +56,15 @@ main{
 }
 article{
     grid-area: a;
-    background-color: blanchedalmond;
 }
 div#container01{
     grid-area: b;
-    background-color: blue;
 }
 div#container02{
     grid-area: c;
-    background-color: blueviolet;
 }
 div#container03{
     grid-area: d;
-    background-color: chartreuse;
 }
 
 
